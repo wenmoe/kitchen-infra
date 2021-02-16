@@ -232,9 +232,3 @@ CSS와 JavaScript, 이미지와 같이 공통으로 호출되는 리소스는 �
 - https://tech.kakao.com/2017/01/12/kage/
 - https://tech.kakao.com/2016/07/01/adt-mysql-shard-rebalancing/
 
-
-
-
-https://tech.kakao.com/2016/07/01/adt-mysql-shard-rebalancing/
-
-
