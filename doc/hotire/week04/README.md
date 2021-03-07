@@ -21,8 +21,6 @@
 
 
 
-
-
 ## 고정길이 가변길이
 
 - 자바의 고정길이 8바이트 단위이다. 
@@ -38,3 +36,11 @@
 물리적인 주소 값은 배수로 확장이 가능하다.  Compressd OOP방식
 
 https://blog.naver.com/gngh0101/221105919309
+
+
+
+## 탐색알고리즘
+
+### Hash
+
+https://tech.kakao.com/2016/04/07/innodb-adaptive-hash-index/
