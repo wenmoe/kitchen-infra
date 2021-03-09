@@ -41,6 +41,16 @@ https://blog.naver.com/gngh0101/221105919309
 
 ## 탐색알고리즘
 
+### Index 
+
+- InnoDB B-Tree 인덱스
+
+MySQL의 InnoDB의 대표적인 인덱스는 B-Tree입니다. 데이터는 Primary Key 순으로 정렬되어 관리되고, Secondrary Key는 인덱스키+PK를 조합으로 정렬이 되어 있습니다.
+
+즉, 특정 데이터를 찾기 위해서는 Secondrary Key에서 PK를 찾고, 그 PK를 통해 다시 원하는 데이터로 찾아가는 형태로 데이터가 처리 됩니다. 트리의 가장 큰 강점은 데이터 접근 퍼포먼스가 데이터 증가량에 따라서도 결코 선형적으로 증가하지 않다는 점에 있습니다.
+
+참고로, PK 접근 시 데이터 접근에 소요되는 비용은 O(logN)이고,두번 트리에 접근하는 Secondrary Key에 소요되는 비용은 2 * O(logN)입니다.
+
 ### Hash
 
 https://tech.kakao.com/2016/04/07/innodb-adaptive-hash-index/
